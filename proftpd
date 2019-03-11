@@ -1,0 +1,11 @@
+
+Error
+Starting proftpd (via systemctl): proftpd.serviceJob for proftpd.service failed because the control process exited with error code. See "systemctl status proftpd.service" and "journalctl -xe" for details.
+ failed!
+ 
+ 
+ Solve by
+ 
+ https://www.virtualmin.com/node/53511
+ 
+# virtualmin config-system --include ProFTPd
